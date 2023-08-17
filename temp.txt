@@ -1,0 +1,15 @@
+
+/* Element | http://localhost:5500/#services */
+
+div.p-4:nth-child(1) > p:nth-child(4) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 7rem;
+}
+
+/* Element | http://localhost:5500/#services */
+
+img.inline-block {
+  width: 8%;
+}
