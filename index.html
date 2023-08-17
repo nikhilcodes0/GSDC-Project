@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> 
     <title>Portfolio</title>
   </head>
-  <body class="font-[Inter]">
+  <body class="font-[Inter] ">
     <header>
       <nav class="flex justify-between px-16 py-6 items-center">
         <img src="assets/Frame.svg" alt="logo" />
@@ -28,7 +28,7 @@
       </nav>
       <hr />
     </header>
-    <section class="py-10">
+    <section class="py-10" id="home">
       <div class="flex justify-evenly">
         <div class="w-[50rem] flex my-[14rem] flex-col">
           <p class="text-[65px] leading-[65px] font-black tracking-tighter">
@@ -49,14 +49,15 @@
             <button
               class="py-3 px-6 border border-[#0099FF] text-[#0099FF] font-bold w-[200px] mx-6 rounded-md inline-block"
             >
-              Learn More
+              <a href="#about">Learn More</a>
             </button>
           </div>
         </div>
         <div>
+          <div class="w-[40rem] h-[40rem] absolute bg-[#e5f5ff] rounded-[50%] right-[9rem]"></div>
           <img
             src="assets/home-man.png"
-            class="w-[50rem] drop-shadow-2xl"
+            class="w-[40rem] drop-shadow-2xl"
             alt="home-man"
           />
         </div>
@@ -316,7 +317,7 @@
         </div>
       </div>
     </section>
-    <section class="p-32">
+    <section class="px-32 pt-32">
       <div class="pl-8">
         <p class="text-[45px] leading-[65px] font-black tracking-tighter">Customer Testimonials</p>
         <p class="mt-8 font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -374,7 +375,55 @@
           </div>
         </div>
       </div>
+      <div class="bg-[#333333] flex px-[150px] py-[150px] text-white items-center justify-between w-[96%] mx-auto">
+        <div>
+          <p class="text-[40px] font-bold">Do you have a project in mind?</p>
+          <p class="my-8 w-[30rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, illo?</p>
+        </div>
+        <div>
+          <button class="py-3 px-6 bg-[#0099FF] text-white font-bold w-[200px] rounded-md my-6">Let's Talk</button>
+        </div>
+      </div>
     </section>
+    <footer class="p-32 bg-[#e5f5ff] flex justify-between">
+      <div class="w-[15rem] flex flex-col justify-start">
+        <img src="assets/Frame.svg" alt="logo" >
+        <p class="my-8 w-[20rem]">Lorem ipsum dolor sit amet consectetur adipisicing elit. In ducimus amet corporis. Eius, dolorum natus.</p>
+        <div class="flex justify-between">
+          <img src="assets/twitter.svg" alt="twitter" class="bg-white p-1">
+          <img src="assets/instagram.svg" alt="instagram" class="bg-white p-1">
+          <img src="assets/inkedin.svg" alt="linkedin" class="bg-white p-1">
+          <img src="assets/yt.svg" alt="youtube" class="bg-white p-1">
+          <img src="assets/behance.svg" alt="behance" class="bg-white p-1">
+        </div>
+      </div>
+      <div>
+        <p class="font-bold text-2xl mb-8">Menu</p>
+        <ul class="flex flex-col justify-between h-[13rem]">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li>Blog</li>
+          <li>Blog post</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-bold text-2xl mb-8">Utility Pages</p>
+        <ul class="flex flex-col justify-between h-[13rem]">
+          <li>Start Here</li>
+          <li>Style Guide</li>
+          <li>Password Generator</li>
+          <li>404 not found</li>
+          <li>Licenses</li>
+        </ul>
+      </div>
+      <div class="w-[25rem]">
+        <p class="font-bold text-2xl mb-8">Subscribe to our newsletter</p>
+        <p class="my-8">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus blanditiis aspernatur maxime.</p>
+        <input type="email" name="Subscribe" id="newsletter" placeholder="  Enter your email" class="bg-black text-white focus:border-[#ffffff] p-4 rounded-lg w-[25rem]">
+        <button type="submit" class="block py-3 px-6 bg-[#0099FF] text-white font-bold w-[200px] rounded-md my-6">Subscribe</button>
+      </div>
+    </footer>
   </body>
 </html>
 
