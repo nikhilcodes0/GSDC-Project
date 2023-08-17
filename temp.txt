@@ -1,6 +1,0 @@
-width: 40rem;
-height: 40rem;
-position: absolute;
-background-color: red;
-border-radius: 50%;
-right: 9rem;
