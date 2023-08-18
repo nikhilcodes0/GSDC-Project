@@ -12,46 +12,46 @@
   </head>
   <body class="font-[Inter] ">
     <header>
-      <nav class="flex justify-between px-16 py-6 items-center">
+      <nav class="flex justify-between px-16 py-6 items-center nav">
         <img src="assets/Frame.svg" alt="logo" />
-        <ul class="flex justify-between w-[25rem] text-lg font-bold">
+        <ul class="flex justify-between w-[25rem] text-lg font-bold  nav-links">
           <li><a href="#home">Home</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
         </ul>
-        <a href="contact.html" class="relative inline-flex items-center justify-start inline-block px-8 py-3 overflow-hidden font-medium transition-all bg-[#0099FF] rounded-full hover:bg-white group">
+        <a href="contact.html" class="relative inline-flex items-center justify-start inline-block px-8 py-3 overflow-hidden font-medium transition-all bg-[#0099FF] rounded-full hover:bg-white group contact-btn">
           <span class="absolute inset-0 border-0 group-hover:border-[25px] ease-linear duration-100 transition-all border-white rounded-md"></span>
-          <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-[#0099FF] group-hover:border-[#0099FF]">Contact</span>
+          <span class="relative w-full text-left text-white transition-colors duration-200 ease-in-out group-hover:text-[#0099FF] group-hover:border-[#0099FF]lg:hidden">Contact</span>
           </a>
       </nav>
       <hr />
     </header>
     <section class="py-10" id="home">
       <div class="flex justify-evenly">
-        <div class="w-[50rem] flex my-[14rem] flex-col">
-          <p class="text-[65px] leading-[65px] font-black tracking-tighter">
+        <div class="w-[50rem] flex my-[14rem] flex-col hero-content">
+          <p class="text-[65px] leading-[65px] font-black tracking-tighter maintxt">
             <b>We are the best agency in the world</b>
           </p>
-          <p class="my-10 ">
+          <p class="my-10 desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
             repellat sunt explicabo. Ipsum laboriosam, at ab cum magni culpa
             similique dicta autem? Fuga repellendus, sed libero consequatur
             mollitia iure facilis quod, quo, doloremque ratione commodi.
           </p>
-          <div class="flex">
+          <div class="flex buttons">
             <button
               class="py-3 px-6 bg-[#0099FF] text-white font-bold w-[200px] rounded-md"
             >
               Start a Project
             </button>
-            <a href="#_" class="rounded-md px-6 py-4 pl-[3.5rem] w-[200px] ml-4 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#0099FF] text-[#0099FF] text-white">
+            <a href="#_" class="rounded-md px-6 py-4 pl-[3.5rem] w-[200px] ml-4 overflow-hidden relative group cursor-pointer border-2 font-medium border-[#0099FF] text-[#0099FF] text-white sndbutton">
               <span class="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-[#0099FF] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
               <span class="relative text-[#0099FF] font-bold transition duration-300 mx-auto group-hover:text-white ease">Learn more</span>
               </a>
           </div>
         </div>
-        <div>
+        <div class="home-man">
           <div class="w-[40rem] h-[40rem] absolute bg-[#e5f5ff] rounded-[50%] right-[9rem]"></div>
           <img
             src="assets/home-man.png"
@@ -62,11 +62,11 @@
       </div>
     </section>
     <section id="services" class="py-20 bg-[#e5f5ff]">
-      <p class="text-center font-bold py-2 text-[30px]">Services</p>
-      <p class="text-[60px] font-bold text-center my-8 tracking-tighter">
+      <p class="text-center font-bold py-2 text-[30px] section-heading">Services</p>
+      <p class="text-[60px] font-bold text-center my-8 tracking-tighter section-slogan">
         We Provide
       </p>
-      <p class="text-center w-[60rem] mx-auto my-10">
+      <p class="text-center w-[60rem] mx-auto my-10 section-desc">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe quisquam
         velit, debitis beatae nihil sit minima obcaecati, laudantium, tenetur
         sequi doloremque natus. Impedit tempore reiciendis nemo cupiditate
