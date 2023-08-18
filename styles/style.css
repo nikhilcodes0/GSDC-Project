@@ -5,6 +5,25 @@
 
 
 @media screen and (max-width: 1068px) {
+    .section-heading {
+        font-size: 1rem !important;
+        text-align: center !important;
+    }
+    .section-slogan {
+        font-size: 2rem !important;
+        margin-top: 0 !important;
+        text-align: center !important;
+    }
+    .section-desc {
+        font-size: .7rem !important;
+        width: 30rem !important;
+        text-align: center !important;
+        margin: 1rem auto !important;
+    }
+
+
+    
+    
     .home-man {
         display: none !important ;
     }
@@ -108,31 +127,55 @@
         left: 3.7rem !important;
     }
 
-    
+    .more-projects {
+        padding: 8rem 0 !important;
+    }
+
+    .mprojects {
+        flex-direction: column !important;
+    }
+
+    .project {
+        margin: 1rem auto !important;
+        width: 25rem !important;
+    }
+
+    .project > img {
+        width: 23rem !important;
+    }
+
+    .project-heading {
+        font-size: 1.5rem !important;
+    }
+
+    .project-desc {
+        font-size: .7rem !important;
+    }
+
+    .read-more {
+        font-size: .8rem !important;
+        width: 5rem;
+    }
+
+    .rm-hr {
+        width: 5rem !important;
+    }
+
+    .mproject-heading {
+        font-size: 2rem !important;
+        text-align: center;
+    }
 
     
 }
 
+  
 
 
    
 
 @media screen and (max-width: 768px) {
-    .section-heading {
-        font-size: 1rem !important;
-        text-align: center !important;
-    }
-    .section-slogan {
-        font-size: 2rem !important;
-        margin-top: 0 !important;
-        text-align: center !important;
-    }
-    .section-desc {
-        font-size: .7rem !important;
-        width: 30rem !important;
-        text-align: center !important;
-        margin: 1rem auto !important;
-    }
+    
     .services {
         flex-direction: column !important;
     }
