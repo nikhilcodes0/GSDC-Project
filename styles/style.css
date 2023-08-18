@@ -166,6 +166,19 @@
         text-align: center;
     }
 
+    .faq {
+        padding: 8rem 0 !important;
+    }
+
+    .question {
+        width: 90% !important;
+        margin: 2rem auto !important;
+    }
+
+    .questions {
+        width: 34rem !important;
+    }
+
     
 }
 
