@@ -51,20 +51,87 @@
         font-size: 80% !important;
         opacity: 50% !important;
     }
+
+    #about {
+        padding: 2rem 0;
+    }
+
+    .about-man {
+        display: none !important;
+    }
+
+    .about-div {
+        width: auto !important;
+    }
+
+    .about-btn {
+        margin: 1rem auto !important;
+        font-size: .8rem !important;
+        padding: 10px 7px 7px 7px !important;
+        width: 7rem !important;
+        text-align: center !important;
+        font-weight: 500 !important;
+    }
+
+    .team {
+        padding: 8rem 0 !important;
+    }
+
+    .section-head {
+        width: 34rem !important;
+    }
+
+    .team-div {
+        flex-direction: column !important;
+    }
+
+    .team-member {
+        margin: 1rem auto !important;
+        height: 20rem !important;
+    }
+
+    .team-member > img {
+        width: 70% !important;
+        margin: 0 auto !important;
+    }
+
+    .member-name {
+        font-size: 1rem !important;
+    }
+
+    .member-pos {
+        font-size: .7rem !important;
+    }
+
+    .member-card {
+        width: 12rem !important;
+        left: 3.7rem !important;
+    }
+
+    
+
     
 }
+
+
+
+   
 
 @media screen and (max-width: 768px) {
     .section-heading {
         font-size: 1rem !important;
+        text-align: center !important;
     }
     .section-slogan {
         font-size: 2rem !important;
         margin-top: 0 !important;
+        text-align: center !important;
     }
     .section-desc {
         font-size: .7rem !important;
         width: 30rem !important;
+        text-align: center !important;
+        margin: 1rem auto !important;
     }
     .services {
         flex-direction: column !important;
@@ -84,10 +151,6 @@
     }
 }
 
-
-
-
-/* style.css | http://localhost:5500/styles/style.css */
 
 
 
