@@ -200,32 +200,29 @@
         text-align: center !important;
     }
 
+    .ask {
+        padding: 2rem !important;
+        flex-direction: column;
+    }
+
+    .ask-q {
+        font-size: 25px !important;
+        text-align: center !important;
+    }
+
+    .ask-desc {
+        font-size: 14px;
+        width: 25rem;
+        text-align: center;
+        margin: 2rem auto;
+    }
+
     
 }
 
   
 
-/* style.css | http://localhost:5500/styles/style.css */
-
   
-  /* style.css | http://localhost:5500/styles/style.css?_cacheOverride=1692368439733 */
-  
-
-  
-  /* Element | http://localhost:5500/ */
-  
-  section.px-32:nth-child(8) {
-    padding: 8rem 0;
-  }
-  
-  /* Element | http://localhost:5500/ */
-  
-  div.justify-between:nth-child(2) {
-    flex-direction: column;
-    gap: 3rem;
-  }
-  
-
    
 
 @media screen and (max-width: 768px) {
