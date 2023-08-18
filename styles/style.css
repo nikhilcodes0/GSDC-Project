@@ -179,11 +179,52 @@
         width: 34rem !important;
     }
 
+    .review {
+        padding: 8rem 0 !important;
+    }
+
+    .review-header {
+        padding-left: 0 !important;
+    }
+
+    .reviews {
+        flex-direction: column !important;
+        gap: 3rem !important;
+    }
+
+    .review-heading {
+        text-align: center !important;
+    }
+
+    .review-slogan {
+        text-align: center !important;
+    }
+
     
 }
 
   
 
+/* style.css | http://localhost:5500/styles/style.css */
+
+  
+  /* style.css | http://localhost:5500/styles/style.css?_cacheOverride=1692368439733 */
+  
+
+  
+  /* Element | http://localhost:5500/ */
+  
+  section.px-32:nth-child(8) {
+    padding: 8rem 0;
+  }
+  
+  /* Element | http://localhost:5500/ */
+  
+  div.justify-between:nth-child(2) {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
 
    
 
