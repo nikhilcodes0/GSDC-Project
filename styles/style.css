@@ -6,105 +6,90 @@
 
 @media screen and (max-width: 1068px) {
     .home-man {
-        display: none;
+        display: none !important ;
     }
     .nav-links {
-        flex-direction: column;
-        gap: 2rem;
-        position: absolute;
-        top: -15rem;
+        flex-direction: column !important;
+        gap: 2rem !important;
+        position: absolute !important;
+        top: -15rem !important;
     }
     .contact-btn {
-        display: none;
+        display: none !important;
     }
     .hero-content {
-        margin: 1rem;
+        margin: 1rem !important;
     }
 
     .hero-content > .maintxt {
-        font-size: 2.5rem;
-        line-height: 45px;
+        font-size: 2.5rem !important;
+        line-height: 45px !important;
     }
 
     .nav {
-        padding: 1.5rem 2rem;
+        padding: 1.5rem 2rem !important;
     }
 
     #home {
-        padding-top: 16.5rem;
+        padding-top: 16.5rem !important;
     }
 
     .buttons > button {
-        width: 135px;
-        font-size: .8rem;
-        padding: .5rem .5rem;
+        width: 135px !important;
+        font-size: .8rem !important;
+        padding: .5rem .5rem !important;
     }
 
     .sndbutton {
-        width: 135px;
-        padding: 4px 0 0rem 0rem;
-        text-align: center;
-        font-size: .9rem;
+        width: 135px !important;
+        padding: 4px 0 0rem 0rem !important;
+        text-align: center !important;
+        font-size: .9rem !important;
     }
 
     .desc {
-        font-size: 80%;
-        opacity: 50%;
+        font-size: 80% !important;
+        opacity: 50% !important;
     }
     
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .section-heading {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
     .section-slogan {
-        font-size: 2rem;
-        margin-top: 0;
+        font-size: 2rem !important;
+        margin-top: 0 !important;
     }
     .section-desc {
-        font-size: .7rem;
-        width: 30rem;
+        font-size: .7rem !important;
+        width: 30rem !important;
+    }
+    .services {
+        flex-direction: column !important;
+    }
+    .service {
+        width: 18rem !important;
+        margin:  2rem auto !important;
+    }
+    .service > img {
+        width: 5rem !important;
+    }
+    .service-heading {
+        font-size: 20px !important;
+    }
+    .service-desc {
+        font-size: 12px !important;
     }
 }
 
 
 
 
-/* Element | http://localhost:5500/ */
+/* style.css | http://localhost:5500/styles/style.css */
 
-div.justify-evenly:nth-child(4) {
-    flex-direction: column;
-  }
-  
-  /* Inline #0 | http://localhost:5500/ */
-  
-  .w-\[20rem\] {
-    /* width: 20rem; */
-    width: fit-content;
-  }
-  
-  /* Element | http://localhost:5500/ */
-  
-  div.justify-center:nth-child(2) {
-    margin: 5rem;
-  }
-  
-  /* Element | http://localhost:5500/ */
-  
-  div.justify-center:nth-child(2) > img:nth-child(1) {
-    width: 5rem;
-  }
-  
-  /* Element | http://localhost:5500/ */
-  
-  div.justify-center:nth-child(2) > p:nth-child(2) {
-    font-size: 20px;
-  }
-  
-  /* Element | http://localhost:5500/ */
-  
-  div.justify-center:nth-child(2) > p:nth-child(3) {
-    font-size: 12px;
-  }
+
+
+
   
